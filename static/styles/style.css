@@ -1,0 +1,25 @@
+.cam_img { 
+    /* width: 500px; */
+    /* height: 500px; */
+    border-radius: 100%;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+
+.web-cam {
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    content: "";
+    border-radius: 100%;
+    -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+}
+/* 
+.img {
+    display: block;
+    filter: grayscale(100%);
+    margin-left: auto;
+    margin-right: auto; 
+} */

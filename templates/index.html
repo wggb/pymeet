@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>pymeet</title>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
+</head>
+<body class="pywebview-drag-region" style="overflow: hidden;">
+    <div class ="web-cam" style="background-image: url('{{ url_for('video_feed') }}');">
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-8  offset-lg-2">
+                    <h3 class="mt-5">Live Streaming</h3>
+                    <img src="{{ url_for('video_feed') }}" width="100%">
+                </div>
+            </div>
+        </div> -->
+        <!-- <img class="cam_img" src="{{ url_for('video_feed') }}"> -->
+    </div>
+    hello
+</body>
+</html>

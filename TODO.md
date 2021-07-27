@@ -1,0 +1,3 @@
+- [ ] init two processes (for window and flask)
+- [ ] manage bandwidth usage
+- [ ] send/receive large frames
